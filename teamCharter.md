@@ -5,7 +5,7 @@ This Team Charter outlines the purpose, objectives, roles, responsibilities, and
 It serves as a roadmap to ensure alignment and effective collaboration throughout the project.
 
 ## Team Information
-- **Team Name:** 5500Group4
+- **Team Name:** CS 5500 Group 4
 - **Team Members:**
   1. Minghe Hu
   2. Rubing Li
@@ -22,11 +22,21 @@ Our team is dedicated to achieving the following purpose and objectives:
 
 ## Roles and Responsibilities
 To leverage individual strengths and ensure accountability, we have assigned the following roles and responsibilities:
-1. **Role:** Dalin Wang - **Responsibilities:** Schedule meetings and coordinate team communications.
-2. **Role:** Minghe Hu - **Responsibilities:** Contribute to project completion and ensure tasks are executed.
-3. **Role:** Rubing Li - **Responsibilities:** Contribute to project completion and ensure tasks are executed.
-4. **Role:** Yuning Mu - **Responsibilities:** Contribute to project completion and ensure tasks are executed; facilitate conflict resolution (if any) during discussions to ensure smooth communication and collaboration within the team.
+1. **Dalin Wang**
+   - **Role:** Team Leader
+   - **Responsibilities:** Schedule meetings and coordinate team communications.
+   
+2. **Minghe Hu**
+   - **Role:** Developer/Documentation
+   - **Responsibilities:** Contribute to project completion and ensure tasks are executed.
 
+3. **Rubing Li**
+   - **Role:** Developer
+   - **Responsibilities:** Contribute to project completion and ensure tasks are executed.
+
+4. **Yuning Mu**
+   - **Role:** Developer/Mediator
+   - **Responsibilities:** Contribute to project completion and ensure tasks are executed; facilitate conflict resolution during discussions to ensure smooth communication and collaboration within the team.
 
 ## Team Values and Norms
 We commit to upholding the following values and norms to foster a positive and productive team environment:
@@ -52,7 +62,7 @@ Effective communication is crucial for our success. Our communication plan inclu
 ## Conflict Resolution Mechanisms
 Conflicts will be addressed promptly using the following mechanisms:
 1. **Open Discussion:** Encourage transparent and respectful communication among team members to identify the root cause of the conflict and explore possible solutions together.
-2. **Mediation:** If the conflict persists, internally, Yuning or Dalin will act as a mediator to facilitate the discussion, ensure all perspectives are heard, and help the team find common ground. If an internal resolution cannot be reached, seek assistance from Juancho or TAs externally to provide an objective perspective and guide the team towards a fair resolution.
+2. **Mediation:** If the conflict persists, internally, Yuning or Dalin will act as mediators to facilitate the discussion, ensure all perspectives are heard, and help the team find common ground. If an internal resolution cannot be reached, seek assistance from Juancho or TAs externally to provide an objective perspective and guide the team towards a fair resolution.
 3. **Escalation:** As a last resort, follow recommendations provided by Juancho for conflict resolution, ensuring all team members understand and accept the final decision.
 
 ## Performance Expectations
@@ -76,5 +86,7 @@ To ensure we adhere to this charter, we will:
 
 
 ## Conclusion
+
 This team charter is essential for our collaboration and success. 
+
 By following the guidelines and commitments outlined above, we can work effectively towards our shared objectives.
