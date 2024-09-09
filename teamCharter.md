@@ -7,10 +7,10 @@ It serves as a roadmap to ensure alignment and effective collaboration throughou
 ## Team Information
 - **Team Name:** __5500Group4______________
 - **Team Members:**
-  1. ______Minghe Hu__________
-  2. ______Rubing Li__________
-  3. ______Daling Wang________
-  4. _________________________
+  1. Minghe Hu
+  2. Rubing Li
+  3. Daling Wang
+  4. Yuning Mu
   5. _________________________
 
 ## Team Purpose and Objectives
