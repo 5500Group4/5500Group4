@@ -61,7 +61,7 @@ Effective communication is crucial for our success. Our communication plan inclu
 
 ## Conflict Resolution Mechanisms
 Conflicts will be addressed promptly using the following mechanisms:
-1. **Open Discussion:** Encourage transparent and respectful communication among team members to identify the root cause of the conflict and explore possible solutions together.
+1. **Open Discussion:** Encourage transparent and respectful communication among team members to identify the root cause of the conflict and explore possible solutions together. Every team member's opinion is respected. 
 2. **Mediation:** If the conflict persists, internally, Yuning or Dalin will act as mediators to facilitate the discussion, ensure all perspectives are heard, and help the team find common ground. If an internal resolution cannot be reached, seek assistance from Juancho or TAs externally to provide an objective perspective and guide the team towards a fair resolution.
 3. **Escalation:** As a last resort, follow recommendations provided by Juancho for conflict resolution, ensuring all team members understand and accept the final decision.
 
