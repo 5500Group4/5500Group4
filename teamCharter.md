@@ -73,9 +73,9 @@ We have set the following performance expectations to maintain high standards:
 
 ## Meeting Schedules and Agendas
 Regular meetings will be scheduled as follows:
-1. **Frequency:** Weekly.
-2. **Agenda:** Agendas will be prepared and shared shortly before each meeting on Teams.
-3. **Minutes:** Teams will automatically transcribe meetings, providing a record of discussions, decisions, and action items for reference.
+1. **Frequency:** Weekly. The team will meet in person at Monday afternoons after class to catch up on the progresses and questions(if there is any). 
+2. **Agenda:** Agendas will be prepared and shared shortly before each meeting on Team, according to the status of the project. Each team member should come prepared for efficiency and is encouraged to add to the agenda the issues relavant to the project to be discussed during the meeting. 
+4. **Minutes:** Teams will automatically transcribe meetings, providing a record of discussions, decisions, and action items for reference.
 
 ## Ensuring Adherence to the Charter
 To ensure we adhere to this charter, we will:
