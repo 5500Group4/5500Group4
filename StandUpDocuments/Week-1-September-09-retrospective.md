@@ -1,28 +1,27 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+CS 5500 Group 4
 
 ## Date
 Week 1 September 09
 
 ## Participants
-- [Team Member 1]
-- [Team Member 2]
-- [Team Member 3]
-- [Team Member 4]
-- [Team Member 5]
+- Minghe Hu
+- Rubing Li
+- Dalin Wang
+- Yuning Mu
 
 ---
 
 ## Overview
-Briefly describe the purpose of this retrospective and what you aim to achieve.
+To assist the Vancouver Cancer Association in solving real-life problems.
 
 ---
 
 ## What Went Well
 List the things that went well during the project.
--
+- Schedule meetings and coordinate team communications.
 -
 -
 
@@ -30,7 +29,7 @@ List the things that went well during the project.
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- 
 -
 -
 
@@ -45,15 +44,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  - Set up a weekly meeting time.
 - **Challenges Faced:**
-  -
+  - I need some time to get familiar with my teammates.
 - **Areas for Improvement:**
-  -
+  - Commnuincation.
 - **Feedback and Suggestions:**
-  -
+  - Hope we can have a good semester.
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
@@ -65,7 +64,7 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -
 
-### [Team Member 3]
+### 
 - **Achievements and Contributions:**
   -
 - **Challenges Faced:**
@@ -100,11 +99,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Faster learning and effective communication.
 - **Areas for Improvement:**
-  -
+  - Typescript
 - **Suggestions for Future Projects:**
-  -
+  - We need more details at the beginning of the semester so that we have enough time to prepare.
 
 ---
 
