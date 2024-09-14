@@ -21,9 +21,9 @@ To assist the Vancouver Cancer Association in solving real-life problems.
 
 ## What Went Well
 List the things that went well during the project.
+- Determined our major communication channel which is the Teams group we set up.
 - Schedule meetings and coordinate team communications.
--
--
+- We have communicated and contributed to the GitHub repo smoothly so far.
 
 ---
 
@@ -54,7 +54,7 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Hope we can have a good semester.
 
-### [Team Member 2]
+### Rubing Li
 - **Achievements and Contributions:**
   -
 - **Challenges Faced:**
@@ -64,7 +64,7 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -
 
-### 
+### Minghe Hu
 - **Achievements and Contributions:**
   -
 - **Challenges Faced:**
@@ -74,15 +74,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -
 
-### [Team Member 4]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Set up the MS Teams group and contributed to the docs.
 - **Challenges Faced:**
-  -
+  - With everything coming up at once, the first two weeks have been a bit hectic. It's quite challenging to keep up immediately.
 - **Areas for Improvement:**
-  -
+  - Need to improve time management skills and quickly adjust to the new schedule after the summer break.
 - **Feedback and Suggestions:**
-  -
+  - Everything's perfect so far. I believe we'll keep it up.
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
