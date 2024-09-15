@@ -11,7 +11,7 @@ Week 1 September 09
 - Rubing Li
 - Dalin Wang
 - Yuning Mu
-
+- Meilin Niu
 ---
 
 ## Overview
@@ -84,15 +84,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everything's perfect so far. I believe we'll keep it up.
 
-### [Team Member 5]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - Contribute to the docs.
 - **Challenges Faced:**
-  -
+  - Since I just changed to the new section, I need to catch up with the pace of the team and this course.
 - **Areas for Improvement:**
-  -
+  - Need to adjust to the time schedule in fall semester.
 - **Feedback and Suggestions:**
-  -
+  - Hope can do a great job in team work.
 
 ---
 
