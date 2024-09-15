@@ -11,6 +11,7 @@ It serves as a roadmap to ensure alignment and effective collaboration throughou
   2. Rubing Li
   3. Dalin Wang
   4. Yuning Mu
+  5. Meilin Niu
 
 ## Team Purpose and Objectives
 Our team is dedicated to achieving the following purpose and objectives:
@@ -37,6 +38,10 @@ To leverage individual strengths and ensure accountability, we have assigned the
 4. **Yuning Mu**
    - **Role:** Developer/Mediator
    - **Responsibilities:** Contribute to project completion and ensure tasks are executed; facilitate conflict resolution during discussions to ensure smooth communication and collaboration within the team.
+
+5. **Meilin Niu**
+   - **Role:** Developer
+   - **Responsibilities:** Contribute to project completion and ensure tasks are executed.
 
 ## Team Values and Norms
 We commit to upholding the following values and norms to foster a positive and productive team environment:
