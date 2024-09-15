@@ -13,7 +13,7 @@
 | <img src="Resources/dog.png" alt="rubing" height="64" width="64"> | Rubing Li | li.rub@northeastern.edu |
 | <img src="Resources/hippo.png" alt="dalin" height="64" width="64"> | Dalin Wang | wang.dal@northeastern.edu |
 | <img src="Resources/shark.png" alt="yuning" height="64" width="64"> | Yuning Mu | mu.yun@northeastern.edu |
-
+| <img src="Resources/rabbit.png" alt="meilin" height="64" width="64"> | Meilin Niu | niu.me@northeastern.edu |
 
 
 ## Assigned TA
