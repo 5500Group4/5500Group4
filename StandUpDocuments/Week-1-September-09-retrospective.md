@@ -70,13 +70,14 @@ Identify actionable steps that can be taken to improve future projects.
 
 ### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - Contributed to teamwork by setting up the GitHub repository for the project.
+  - Worked individually on learning TypeScript to improve skills for the upcoming project.
 - **Challenges Faced:**
-  -
+  - Currently working on getting familiar with TypeScript, as it's a new technology for me.
 - **Areas for Improvement:**
-  -
+  - Continue to build proficiency in TypeScript to contribute more effectively to the project.
 - **Feedback and Suggestions:**
-  -
+  - Nothing for now.
 
 ### Yuning Mu
 - **Achievements and Contributions:**
