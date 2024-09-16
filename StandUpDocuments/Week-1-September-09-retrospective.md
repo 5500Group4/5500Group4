@@ -86,13 +86,14 @@ Identify actionable steps that can be taken to improve future projects.
 
 ### Meilin Niu
 - **Achievements and Contributions:**
-  - Contribute to the docs.
+  - Contributed to the docs.
 - **Challenges Faced:**
-  - Since I just changed to the new section, I need to catch up with the pace of the team and this course.
+  - Since I just changed to the new section, I find it difficult to catch up with the pace of the team and this course. I need to fit my former time schedule to the team schedule.
 - **Areas for Improvement:**
-  - Need to adjust to the time schedule in fall semester.
+  - Efficiency: need to enhance efficiency in fall semester.
+  - Time management: Need to improve time management skills to catch up with the content of first two weeks.
 - **Feedback and Suggestions:**
-  - Hope can do a great job in team work.
+  - Hope we can do a great job in team work.
 
 ---
 
