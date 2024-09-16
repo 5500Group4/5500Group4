@@ -56,13 +56,17 @@ Identify actionable steps that can be taken to improve future projects.
 
 ### Rubing Li
 - **Achievements and Contributions:**
-  -
+  - I helped the team set up the preparation works for the upcoming project; booked the time for the standup meeting of first week.
+  - I only heard of the concept of Agile Planning/Development before. The course of this week clearly clarified the concept for me.  
 - **Challenges Faced:**
-  -
+  - Good time management skills: to properly allocate the time for different courses and job seeking. 
+  - Bring energy to embrace the upcoming challenges of learning curves. 
+  - The working knowledge to use React and Typescript: although I took the web development course in the summer semester, my React skills are not proficient for
+    software development.
 - **Areas for Improvement:**
-  -
+  - I have not completely switched to the work-holic mode for the new semester. Therefore, I need to overcome my laziness as soon as possible. 
 - **Feedback and Suggestions:**
-  -
+  - All the team members are smart, dedicated and hard-working. It's my great pleasure to work with my team and I believe I will learn a lot from our collaborations.
 
 ### Minghe Hu
 - **Achievements and Contributions:**
