@@ -7,7 +7,7 @@
 Week 2 September 16
 
 ## Participants
-- [Team Member 1]
+- Dalin Wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -16,13 +16,13 @@ Week 2 September 16
 ---
 
 ## Overview
-Briefly describe the purpose of this retrospective and what you aim to achieve.
+Work on assignment 1.
 
 ---
 
 ## What Went Well
 List the things that went well during the project.
--
+- Our team have good communication 
 -
 -
 
@@ -30,7 +30,7 @@ List the things that went well during the project.
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- Need improvement on coding.
 -
 -
 
@@ -45,15 +45,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  - Doing research on assignment 1. Reading some article about backend.
 - **Challenges Faced:**
-  -
+  - Not facing any challenges so far.
 - **Areas for Improvement:**
-  -
+  - Still need read more article to get familiar with backend.
 - **Feedback and Suggestions:**
-  -
+  - Need some practice on coding part.
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
@@ -100,11 +100,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Good communication.
 - **Areas for Improvement:**
-  -
+  - Assignement 1 is a time consuming task, need more time on it.
 - **Suggestions for Future Projects:**
-  -
+  - Start early.
 
 ---
 
