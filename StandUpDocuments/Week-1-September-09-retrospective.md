@@ -30,14 +30,14 @@ List the things that went well during the project.
 ## What Could Be Improved
 List the areas where there is room for improvement.
 - 
--
+- A smooth transition to using typescript and React
 -
 
 ---
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Self study on this topic by course materials and online tutorials
 2.
 3.
 
