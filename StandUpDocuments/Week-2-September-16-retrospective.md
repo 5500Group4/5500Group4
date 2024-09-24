@@ -8,7 +8,7 @@ Week 2 September 16
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Yuning Mu
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -38,7 +38,7 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. We need to spend some time studying the code template and meanwhile consider our implementations of the project.
 2.
 3.
 
@@ -55,15 +55,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Need some practice on coding part.
 
-### [Team Member 2]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Studied the code provided by professor, and worked on the first assignment.
 - **Challenges Faced:**
-  -
+  - No major challenges so far.
 - **Areas for Improvement:**
-  -
+  -  May need some time to get more familiar with TypeScript.
 - **Feedback and Suggestions:**
-  -
+  - Everything's good.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
