@@ -9,7 +9,7 @@ Week 2 September 16
 ## Participants
 - Dalin Wang
 - Yuning Mu
-- [Team Member 3]
+- Minghe Hu
 - [Team Member 4]
 - [Team Member 5]
 
@@ -22,8 +22,8 @@ Work on assignment 1.
 
 ## What Went Well
 List the things that went well during the project.
-- Our team have good communication 
--
+- Our team has good communication 
+- Each member in the team shows strong ownership of teamwork
 -
 
 ---
@@ -31,7 +31,7 @@ List the things that went well during the project.
 ## What Could Be Improved
 List the areas where there is room for improvement.
 - Need improvement on coding.
--
+- Understanding of Typescript and React
 -
 
 ---
@@ -39,7 +39,7 @@ List the areas where there is room for improvement.
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
 1. We need to spend some time studying the code template and meanwhile consider our implementations of the project.
-2.
+2. We need to spend more time together studying the code
 3.
 
 ---
@@ -47,7 +47,7 @@ Identify actionable steps that can be taken to improve future projects.
 ## Individual Self-Assessments
 ### Dalin Wang
 - **Achievements and Contributions:**
-  - Doing research on assignment 1. Reading some article about backend. Finished assignment1 backend part.
+  - Doing research on assignment 1. Reading some article about backend. Finished assignment 1 backend part.
 - **Challenges Faced:**
   - Not facing any challenges so far.
 - **Areas for Improvement:**
@@ -65,15 +65,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everything's good.
 
-### [Team Member 3]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - Watching videos on typescript grammar, still researching the interaction between frontend and backend.
 - **Challenges Faced:**
-  -
+  - Fantastic teamwork, my teammates helps me with all my problems faced in coding
 - **Areas for Improvement:**
-  -
+  - Code reading ability
 - **Feedback and Suggestions:**
-  -
+  - Everyone's fantastic
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
@@ -102,7 +102,7 @@ Reflect on the team’s performance as a whole.
 - **Team Strengths:**
   - Good communication.
 - **Areas for Improvement:**
-  - Assignement 1 is a time consuming task, need more time on it.
+  - Assignement 1 is a time-consuming task, need more time on it.
 - **Suggestions for Future Projects:**
   - Start early.
 
