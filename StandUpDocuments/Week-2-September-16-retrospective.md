@@ -47,11 +47,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Individual Self-Assessments
 ### Dalin Wang
 - **Achievements and Contributions:**
-  - Doing research on assignment 1. Reading some article about backend.
+  - Doing research on assignment 1. Reading some article about backend. Finished assignment1 backend part.
 - **Challenges Faced:**
   - Not facing any challenges so far.
 - **Areas for Improvement:**
-  - Still need read more article to get familiar with backend.
+  - Still need read more article to get familiar with backend. And need more time to understand codes.
 - **Feedback and Suggestions:**
   - Need some practice on coding part.
 
