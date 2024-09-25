@@ -1,7 +1,7 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 2 September 16
@@ -10,7 +10,7 @@ Week 2 September 16
 - Dalin Wang
 - Yuning Mu
 - Minghe Hu
-- [Team Member 4]
+- Rubing Li
 - [Team Member 5]
 
 ---
@@ -40,7 +40,7 @@ List the areas where there is room for improvement.
 Identify actionable steps that can be taken to improve future projects.
 1. We need to spend some time studying the code template and meanwhile consider our implementations of the project.
 2. We need to spend more time together studying the code
-3.
+3. We need to further confirm the clients' needs
 
 ---
 
@@ -75,16 +75,17 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everyone's fantastic
 
-### [Team Member 4]
+### Rubing Li
 - **Achievements and Contributions:**
-  -
+  - Worked on the assignment 1 to analyze the codes of the backend part of the calculator-sheet app 
 - **Challenges Faced:**
-  -
+  - Understanding the functionality of several components in the calculator-sheet app: DocumentHolder, SpreadsheetControler, etc
+    I spent some effort to study and understand the logic and structure of the app, i.e. how to perform the calculation of a formula
 - **Areas for Improvement:**
-  -
+  - Improve the proficiency of React and Typescript
 - **Feedback and Suggestions:**
-  -
-
+  - The team reached a brief consensus on the clients' needs of the upcoming project. The team members helped me a lot in clarifying the requirements of the written assignment. 
+  
 ### [Team Member 5]
 - **Achievements and Contributions:**
   -
