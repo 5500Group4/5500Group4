@@ -11,7 +11,7 @@ Week 2 September 16
 - Yuning Mu
 - Minghe Hu
 - Rubing Li
-- [Team Member 5]
+- Meilin Niu
 
 ---
 
@@ -86,15 +86,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - The team reached a brief consensus on the clients' needs of the upcoming project. The team members helped me a lot in clarifying the requirements of the written assignment. 
   
-### [Team Member 5]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - Worked on assignment 1 to finish the backend part of analysis. Working on the questions given to client. Read relevant materials about assignment 1 and system design.
 - **Challenges Faced:**
-  -
+  - How to manage a quite busy schedule in this semester.
 - **Areas for Improvement:**
-  -
+  - Coding techniques of typescript
 - **Feedback and Suggestions:**
-  -
+  - Everyone is amazing!
 
 ---
 
