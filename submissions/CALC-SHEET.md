@@ -18,7 +18,7 @@ The program uses Express JS to build up the backend framework, which completes t
 
 - **Create:**
   - Create a new document containing a new spreadsheet (the file has two endpoints for creation).
-
+  - PUT method is used to update or create a resource. In this case, if condition `if (documentNames.indexOf(name) === -1)` checks whether the document with the specified name exists, if not, it will create a new document.
 
     ```typescript
     app.put('/documents/:name', (req: express.Request, res: express.Response) => {
@@ -32,6 +32,8 @@ The program uses Express JS to build up the backend framework, which completes t
         res.status(200).send(document);
     });
     ```
+    
+  - POST method is used to create a resource. In this case, if condition `if (documentNames.indexOf(name) === -1)` also checks whether the document with the specified name exists. According to `documentHolder.requestViewAccess(name, 'A1', userName);`, regardless of whether the document was created or already existed, this line requests view access for the user on the document starting from cell 'A1'.
 
     ```typescript
     app.post('/documents/create/:name', (req: express.Request, res: express.Response) => {
