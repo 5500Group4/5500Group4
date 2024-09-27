@@ -10,18 +10,17 @@ This document includes the analyses of the [Calc Sheet App example](https://clas
 
 Explore how the backend is structured to serve API requests. Identify key API endpoints that the client interacts with and document:
 
-#### a. How data is created, read, updated, and deleted (CRUD operations).
+- #### a. How data is created, read, updated, and deleted (CRUD operations).
 
 **Answer:**
 
 The program uses Express JS to build up the backend framework, which completes the routing based on HTTP method and URL pattern. This backend API is designed to handle operations on documents, with a focus on CRUD functionality (Create, Read, Update, Delete) for both the documents and document cells. Here’s how the API is structured to serve client requests by different API endpoints:
 
 - **Create:**
-  - `POST /documents/create/:name`  
-  Create a new document containing a new spreadsheet (the file has two endpoints for creation).
+  - Create a new document containing a new spreadsheet (the file has two endpoints for creation).
 
 
-    ```sh
+    ```typescript
     app.put('/documents/:name', (req: express.Request, res: express.Response) => {
     .....
         const documentNames = documentHolder.getDocumentNames();
@@ -34,16 +33,24 @@ The program uses Express JS to build up the backend framework, which completes t
     });
     ```
 
-    ```sh
+    ```typescript
     app.post('/documents/create/:name', (req: express.Request, res: express.Response) => {
-    ...});
+    .....
+	    const documentNames = documentHolder.getDocumentNames();
+	    if (documentNames.indexOf(name) === -1) {
+	        const documentOK = documentHolder.createDocument(name, 5, 8, userName);
+	    }
+	    documentHolder.requestViewAccess(name, 'A1', userName);
+	    const documentJSON = documentHolder.getDocumentJSON(name, userName);
+	
+	    res.status(200).send(documentJSON);
+    });
     ```
 
 - **Read:**
-  - `GET /documents`  
-    Retrieve all document names.
-
-    ```sh
+  - Retrieve all document names.  
+    
+    ```typescript
     app.get('/documents', (req: express.Request, res: express.Response) => {
         const documentNames = documentHolder.getDocumentNames();
         res.send(documentNames);
@@ -51,10 +58,9 @@ The program uses Express JS to build up the backend framework, which completes t
     ```
 
 - **Update:**
-  - `PUT /document/cell/edit/:name`
-    Update Document Cell by adding a token or a cell
+  - Update Document Cell by adding a token or a cell
 
-    ```sh
+    ```typescript
     app.put('/document/addtoken/:name', (req: express.Request, res: express.Response) => {
         // ......
         // add the token
@@ -62,69 +68,89 @@ The program uses Express JS to build up the backend framework, which completes t
     });
     ```
 
-    ```sh
+    ```typescript
     app.put('/document/addcell/:name', (req: express.Request, res: express.Response) => {
         // ......
         const resultJSON = documentHolder.addCell(name, cell, userName);
     });
     ```
+  - Update the editing status
+    ```typescript
+    app.put('/document/cell/edit/:name', (req: express.Request, res: express.Response) => {
+	    const name = req.params.name;
+	
+	    // is this name valid?
+	    const documentNames = documentHolder.getDocumentNames();
+	    if (documentNames.indexOf(name) === -1) {
+	        res.status(404).send(`Document ${name} not found`);
+	        return;
+	    }
+	    // get the user name from the body
+	    // get the cell from the body
+	    const userName = req.body.userName;
+	    const cell = req.body.cell;
+	    if (!userName) {
+	        res.status(400).send('userName is required');
+	        return;
+	    }
+	    // request access to the cell
+	    const result = documentHolder.requestEditAccess(name, cell, userName);
+	    const documentJSON = documentHolder.getDocumentJSON(name, userName);
+	
+	    res.status(200).send(documentJSON);
+	    });
+    ```
 
 - **Delete**
-  - `PUT /document/removetoken/:name`
-    Delete the token in a document cell.
+  - Delete the token in a document cell.
 
-    ```sh
+    ```typescript
     app.put('/document/removetoken/:name', (req: express.Request, res: express.Response) => {
         // ......
         const resultJSON = documentHolder.removeToken(name, userName);
     });
     ```
 
-#### b. How the server validates and processes client requests before responding.
+- #### b. How the server validates and processes client requests before responding.
 
 **Answer:**
 
 - **Validation:**
-    The API ensures required fields like userName, cell, and token are provided in the request body where applicable. It also validates document existence in most endpoints by checking the document names against the list held by DocumentHolder. 
+The API ensures required fields like userName, cell, and token are provided in the request body where applicable. It also validates document existence in most endpoints by checking the document names against the list held by DocumentHolder. For example, we note the the if-statements for the preliminary validation before processing client requests by the different API endpoints:
 
-    For example, we note the the if-statements for the preliminary validation before processing client requests in body of the different API endpoints:
+  - Validate the existence of userName in the `PUT /documents/:name`
 
-    - Validate the existence of userName in the `PUT /documents/:name`
-
-    ```sh
+    ```typescript
     if (!userName) {
-        res.status(400).send('userName is required');
-        return;
+	res.status(400).send('userName is required');
+	return;
     }
     ```
 
-    - Validate if the document name is within the list held by DocumentHolder in `PUT /document/addtoken/:name`:
+  - Validate if the document name is within the list held by DocumentHolder in `PUT /document/addtoken/:name`:
 
-    ```sh
+    ```typescript
     if (documentNames.indexOf(name) === -1) {
-        res.status(404).send(`Document ${name} not found`);
-        return;
+	res.status(404).send(`Document ${name} not found`);
+	return;
     }
     ```
 
 - **Processing:**
-    Before responding to the client, the server interacts with the DocumentHolder class to create, update, or retrieve document data. 
-
-    The server first create a new DocumentHolder class:
-```sh
-const documentHolder = new DocumentHolder();
-```
-
-    The endpoint `/documents` is used to retrieve the current documents in database:
-
-```sh
-app.get('/documents', (req: express.Request, res: express.Response) => {
-    const documentNames = documentHolder.getDocumentNames();
-    res.send(documentNames);
-});
-```
-
-Additionally, the debug mode toggles logging of incoming requests to track client interactions for troubleshooting or development.
+Before responding to the client, the server interacts with the DocumentHolder class to create, update, or retrieve document data.
+The server first create a new DocumentHolder class:
+	```typescript
+	const documentHolder = new DocumentHolder();
+	```
+	The endpoint `/documents` is used to retrieve the current documents in database:
+ 
+	```typescript
+	app.get('/documents', (req: express.Request, res: express.Response) => {
+	    const documentNames = documentHolder.getDocumentNames();
+	    res.send(documentNames);
+	});
+	```
+  Additionally, the debug mode toggles logging of incoming requests to track client interactions for troubleshooting or development. The further operations such as adding token to the formula will be processed by the respective method of DocumentHolder object. 
 
 ### 2. Real-Time Communication (if applicable):
 
@@ -139,46 +165,42 @@ The project currently relies on the HTTP request-response structure to build up 
 
 On the client side, the `SpreadSheetClient.ts` file manages the client’s connection and interaction with the server. The `setServerSelector` method is designed to determine the server address of the current operation. 
 
-```sh
-   setServerSelector(server: string): void {
-        if (server === this._server) {
-            return;
-        }
-        if (server === 'localhost') {
-            this._baseURL = `${LOCAL_SERVER_URL}:${this._serverPort}`;
-        } else {
-            this._baseURL = RENDER_SERVER_URL;
-        }
-
-        this.getDocument(this._documentName, this._userName);
-        this._server = server;
-
-    }
+```typescript
+setServerSelector(server: string): void {
+  if (server === this._server) {
+	return;
+   }
+  if (server === 'localhost') {
+	this._baseURL = `${LOCAL_SERVER_URL}:${this._serverPort}`;
+   } else {
+	this._baseURL = RENDER_SERVER_URL;
+   }
+   this.getDocument(this._documentName, this._userName);
+   this._server = server;
 }
 ```
 
 The _timedFetched() method is designed to fetch the document information at every 0.1 second and the document list at every 2 seconds from the server, so as to stimulate real time communication. 
 
-```sh
-   private async _timedFetch(): Promise<Response> {
+```typescript
+private async _timedFetch(): Promise<Response> {
 
-        // only get the document list every 2 seconds
-        let documentListInterval = 20;
-        let documentFetchCount = 0;
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
-                this.getDocument(this._documentName, this._userName);
-                documentFetchCount++;
-                if (documentFetchCount > documentListInterval) {
-                    documentFetchCount = 0;
-                    this.getDocuments(this._userName);
-                }
-                this._timedFetch();
-            }, 100);
-        });
-    }
+// only get the document list every 2 seconds
+let documentListInterval = 20;
+let documentFetchCount = 0;
+return new Promise((resolve, reject) => {
+    setTimeout(() => {
+	this.getDocument(this._documentName, this._userName);
+	documentFetchCount++;
+	if (documentFetchCount > documentListInterval) {
+	    documentFetchCount = 0;
+	    this.getDocuments(this._userName);
+	}
+	this._timedFetch();
+    }, 100);
+});
+}
 ```
-
 
 Furthermore, the `SpreadSheetClient` contains a variety of methods to exchange the messages to the server. It pulls the information by `getDocument()` and `getDocuments()`. It sends the information of calculation by `addToken()`, `removeToken()`, `addCell()` and `clearFormula()`, etc. It updates the user editing status by `setEditStatus()`. 
 
@@ -217,14 +239,14 @@ Once users are authenticated, their roles determine what they can access or modi
 
 We can manage the different levels of access by modifying the routes. One option is to add an authentication middleware in the route, for example, `app.put(‘/document/addcell/:name', isAdmin, (res, req) => )`. Some of the routes are limited to the users of certain roles. Another option is checking the user role. Take the add token route as the example: 
 
-```sh
-	if (req.body.userRole == ‘certain-role’) {
-        const resultJSON = documentHolder.addToken(name, token, userName);
-        res.status(200).send(resultJSON);
-    }
-    else {
-        res.status(403).send(‘No Permission');
-    }
+```typescript
+if (req.body.userRole == ‘certain-role’) {
+	const resultJSON = documentHolder.addToken(name, token, userName);
+	res.status(200).send(resultJSON);
+}
+else {
+	res.status(403).send(‘No Permission');
+}
 ```
 
 #### c. What mechanisms are used to secure sensitive user data?
@@ -263,19 +285,19 @@ Middleware plays a crucial role in handling tasks like authentication, session m
 
 In the project, we noted the following middlewares:
 
-```sh
+```typescript
 app.use(cors());
 ```
 
 This is the Cross-origin Resource Sharing (CORS) middleware that allows accessing resources from domains of different origins. The application is allowed to respond to the external third party APIs.It also automatically handles the preflight requests by responding with the appropriate headers. 
 
-```sh
+```typescript
 app.use(bodyParser.json())
 ```
 
 This is a middleware function to parse the content in the request body. It handles the JSON payloads for the application to access information. 
 
-```sh
+```typescript
 app.use((req, res, next) => {
     if (debug) {
         console.log(`${req.method} ${req.url}`);
