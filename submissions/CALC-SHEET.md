@@ -4,6 +4,288 @@
 
 This document includes the analyses of the [Calc Sheet App example](https://classroom.github.com/a/ztxdcNowLinks).
 
+## Part 2: Analyzing the Backend (NodeJS)
+
+### 1. Examine the RESTful API:
+
+Explore how the backend is structured to serve API requests. Identify key API endpoints that the client interacts with and document:
+
+#### a. How data is created, read, updated, and deleted (CRUD operations).
+
+**Answer:**
+
+The program uses Express JS to build up the backend framework, which completes the routing based on HTTP method and URL pattern. This backend API is designed to handle operations on documents, with a focus on CRUD functionality (Create, Read, Update, Delete) for both the documents and document cells. Here’s how the API is structured to serve client requests by different API endpoints:
+
+- **Create:**
+  - `POST /documents/create/:name`  
+  Create a new document containing a new spreadsheet (the file has two endpoints for creation).
+
+
+    ```sh
+    app.put('/documents/:name', (req: express.Request, res: express.Response) => {
+    .....
+        const documentNames = documentHolder.getDocumentNames();
+        if (documentNames.indexOf(name) === -1) {
+            console.log(`Document ${name} not found, creating it`);
+            documentHolder.createDocument(name, 5, 8, userName);
+        }
+        const document = documentHolder.getDocumentJSON(name, userName);
+        res.status(200).send(document);
+    });
+    ```
+
+    ```sh
+    app.post('/documents/create/:name', (req: express.Request, res: express.Response) => {
+    ...});
+    ```
+
+- **Read:**
+  - `GET /documents`  
+    Retrieve all document names.
+
+    ```sh
+    app.get('/documents', (req: express.Request, res: express.Response) => {
+        const documentNames = documentHolder.getDocumentNames();
+        res.send(documentNames);
+    });
+    ```
+
+- **Update:**
+  - `PUT /document/cell/edit/:name`
+    Update Document Cell by adding a token or a cell
+
+    ```sh
+    app.put('/document/addtoken/:name', (req: express.Request, res: express.Response) => {
+        // ......
+        // add the token
+        const resultJSON = documentHolder.addToken(name, token, userName);
+    });
+    ```
+
+    ```sh
+    app.put('/document/addcell/:name', (req: express.Request, res: express.Response) => {
+        // ......
+        const resultJSON = documentHolder.addCell(name, cell, userName);
+    });
+    ```
+
+- **Delete**
+  - `PUT /document/removetoken/:name`
+    Delete the token in a document cell.
+
+    ```sh
+    app.put('/document/removetoken/:name', (req: express.Request, res: express.Response) => {
+        // ......
+        const resultJSON = documentHolder.removeToken(name, userName);
+    });
+    ```
+
+#### b. How the server validates and processes client requests before responding.
+
+**Answer:**
+
+- **Validation:**
+    The API ensures required fields like userName, cell, and token are provided in the request body where applicable. It also validates document existence in most endpoints by checking the document names against the list held by DocumentHolder. 
+
+    For example, we note the the if-statements for the preliminary validation before processing client requests in body of the different API endpoints:
+
+    - Validate the existence of userName in the `PUT /documents/:name`
+
+    ```sh
+    if (!userName) {
+        res.status(400).send('userName is required');
+        return;
+    }
+    ```
+
+    - Validate if the document name is within the list held by DocumentHolder in `PUT /document/addtoken/:name`:
+
+    ```sh
+    if (documentNames.indexOf(name) === -1) {
+        res.status(404).send(`Document ${name} not found`);
+        return;
+    }
+    ```
+
+- **Processing:**
+    Before responding to the client, the server interacts with the DocumentHolder class to create, update, or retrieve document data. 
+
+    The server first create a new DocumentHolder class:
+```sh
+const documentHolder = new DocumentHolder();
+```
+
+    The endpoint `/documents` is used to retrieve the current documents in database:
+
+```sh
+app.get('/documents', (req: express.Request, res: express.Response) => {
+    const documentNames = documentHolder.getDocumentNames();
+    res.send(documentNames);
+});
+```
+
+Additionally, the debug mode toggles logging of incoming requests to track client interactions for troubleshooting or development.
+
+### 2. Real-Time Communication (if applicable):
+
+If the project includes real-time communication (e.g., using WebSockets), investigate:
+
+#### a. How the client and server establish real-time connections.
+#### b. How messages are exchanged between the client and server, and what kind of data is sent.
+
+**Answer:**
+
+The project currently relies on the HTTP request-response structure to build up the real-time communications between the client and the server.  
+
+On the client side, the `SpreadSheetClient.ts` file manages the client’s connection and interaction with the server. The `setServerSelector` method is designed to determine the server address of the current operation. 
+
+```sh
+   setServerSelector(server: string): void {
+        if (server === this._server) {
+            return;
+        }
+        if (server === 'localhost') {
+            this._baseURL = `${LOCAL_SERVER_URL}:${this._serverPort}`;
+        } else {
+            this._baseURL = RENDER_SERVER_URL;
+        }
+
+        this.getDocument(this._documentName, this._userName);
+        this._server = server;
+
+    }
+}
+```
+
+The _timedFetched() method is designed to fetch the document information at every 0.1 second and the document list at every 2 seconds from the server, so as to stimulate real time communication. 
+
+```sh
+   private async _timedFetch(): Promise<Response> {
+
+        // only get the document list every 2 seconds
+        let documentListInterval = 20;
+        let documentFetchCount = 0;
+        return new Promise((resolve, reject) => {
+            setTimeout(() => {
+                this.getDocument(this._documentName, this._userName);
+                documentFetchCount++;
+                if (documentFetchCount > documentListInterval) {
+                    documentFetchCount = 0;
+                    this.getDocuments(this._userName);
+                }
+                this._timedFetch();
+            }, 100);
+        });
+    }
+```
+
+
+Furthermore, the `SpreadSheetClient` contains a variety of methods to exchange the messages to the server. It pulls the information by `getDocument()` and `getDocuments()`. It sends the information of calculation by `addToken()`, `removeToken()`, `addCell()` and `clearFormula()`, etc. It updates the user editing status by `setEditStatus()`. 
+
+On the server side, the server listens for requests from the client on various endpoints in the DocumentServer.ts file. The data might be `userName`, `cell`, or `token`, based on the nature of the operation. It receives the data in the request URL path( as request parameters) and the body, performs actions accordingly and returns the data in JSON format. 
+
+If the project needs to incorporate real-time communication using WebSockets, here’s how we can structure and implement the client-server interaction, focusing on how the connections are established, how messages are exchanged, and what kind of data is transmitted:
+
+- **Establishing Real-Time Connections**
+    To enable WebSocket communication between the client and server, we can:
+	- On the Server: Set up a WebSocket server to handle incoming WebSocket connections.
+	- On the Client: Establish a WebSocket connection to the server, usually after the page loads or when a specific event occurs.
+
+- **Message Exchange**
+	- Initiating Communication: Once the connection is established, both the client and server can send and receive messages through WebSocket events (message, open, close).
+	- Message Format: Typically, JSON objects are used to send structured data. Messages might contain information such as document changes, user actions, or updates to collaborative data.
+
+### 3. User Management:
+#### a. How is user authentication handled (e.g., via JWT, OAuth)?
+
+**Answer:**
+
+The project requires a user to enter a username at the login page, and the username will be further set in the SpreadSheetClient class and transmitted to the backend. However, the user authentication functionality is not established in the project. 
+
+The project might use OAuth-based authentication (e.g., Google, GitHub login). OAuth handles third-party authorization, allowing users to authenticate with external services. In OAuth, a user would authenticate via a third-party provider, and the server would receive an access token from the provider to verify the user’s identity.
+
+The user will first be redirected to the OAuth provider to authenticate the identity and finish the authorization, which will generate the access token. The backend server needs to complete the configuration according to the instructions by different providers. The access token is required for all the route handlers in the backend. In such a way, an authorization layer should be built up between the client and the server. 
+
+#### b. How does the backend differentiate between user types (e.g., admin, regular user) and provide different levels of access?
+
+**Answer:**
+
+Once users are authenticated, their roles determine what they can access or modify in the system. Common roles include:
+
+- Admin: Full access to all features (create, read, update, delete).
+- Regular User: Limited access, perhaps restricted to their own documents or specific actions.
+
+We can manage the different levels of access by modifying the routes. One option is to add an authentication middleware in the route, for example, `app.put(‘/document/addcell/:name', isAdmin, (res, req) => )`. Some of the routes are limited to the users of certain roles. Another option is checking the user role. Take the add token route as the example: 
+
+```sh
+	if (req.body.userRole == ‘certain-role’) {
+        const resultJSON = documentHolder.addToken(name, token, userName);
+        res.status(200).send(resultJSON);
+    }
+    else {
+        res.status(403).send(‘No Permission');
+    }
+```
+
+#### c. What mechanisms are used to secure sensitive user data?
+
+**Answer:**
+
+Several mechanisms ensure that sensitive data, such as user credentials and personal information, is securely handled:
+
+- **Password Hashing**:  
+  Passwords should never be stored in plaintext. Instead, a strong hashing algorithm like **bcrypt** is used to hash passwords before saving them in the database.
+
+- **Salting**:  
+  Random data (a "salt") is added to the password before hashing. This process makes the password more resistant to **rainbow table attacks**.
+
+- **Hashing**:  
+  **bcrypt** generates a hashed password that cannot be reversed, ensuring the stored password is secure.
+
+
+### 4. Middleware and Error Handling:
+
+Investigate how the backend uses middleware to handle tasks like:
+
+- Authentication and session management.
+- Data validation and error handling.
+Document examples from the code that show how middleware simplifies request handling.
+
+**Answer:**
+
+Middleware plays a crucial role in handling tasks like authentication, session management, data validation, and error handling. Middleware allows these tasks to be modularized, reducing redundancy and improving maintainability.
+
+- **Authentication and Session Management**
+    Middleware is often used to manage authentication in Express applications by verifying tokens or sessions for each incoming request.
+
+- **Data Validation and Error Handling**
+    Middleware can be used to validate incoming data and handle errors globally, ensuring that each request passes through a standard validation process and that errors are handled consistently across the application.
+
+In the project, we noted the following middlewares:
+
+```sh
+app.use(cors());
+```
+
+This is the Cross-origin Resource Sharing (CORS) middleware that allows accessing resources from domains of different origins. The application is allowed to respond to the external third party APIs.It also automatically handles the preflight requests by responding with the appropriate headers. 
+
+```sh
+app.use(bodyParser.json())
+```
+
+This is a middleware function to parse the content in the request body. It handles the JSON payloads for the application to access information. 
+
+```sh
+app.use((req, res, next) => {
+    if (debug) {
+        console.log(`${req.method} ${req.url}`);
+    }
+    next();
+});
+```
+
+This is a custom middleware to display the request method and URL when the debug flag is turned on. It can be deemed as logging such information related with request. 
+
 
 
 ## Part 3: Analyzing the Frontend (React TypeScript)
@@ -298,3 +580,4 @@ function App() {
     }, [getDocumentNameFromWindow]);
 }
 ```
+
