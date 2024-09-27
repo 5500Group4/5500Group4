@@ -150,7 +150,7 @@ The server first create a new DocumentHolder class:
 	    res.send(documentNames);
 	});
 	```
-  Additionally, the debug mode toggles logging of incoming requests to track client interactions for troubleshooting or development. The further operations such as adding token to the formula will be processed by the respective method of DocumentHolder object. 
+  Additionally, the debug mode toggles logging of incoming requests to track client interactions for troubleshooting or development. The further operations such as adding token to the formula will be processed by the respective method of DocumentHolder object. For example, adding token is by ```documentHolder.addToken(name, token, userName)```. Adding a cell is by ```documentHolder.addCell(name, cell, userName);```.
 
 ### 2. Real-Time Communication (if applicable):
 
