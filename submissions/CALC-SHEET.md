@@ -581,3 +581,69 @@ function App() {
 }
 ```
 
+### 2. Real-Time Interaction (if applicable):
+
+If the project includes real-time communication, investigate how the client and server communicate in real-time:
+
+#### How are updates pushed from the server to the client, and how does the UI handle them?
+
+
+**Answer:**
+
+As discussed above, the project utilizes the HTTP request and response model to communicate between the client side and the server.  The functions to push the updates are placed within the `SpreadSheetClient.ts` file. The `_timedFetched()` method is designed to fetch the document information at every 0.1 second and the document list at every 2 seconds from the server. 
+
+The updates to calculation content are pushed to the backend by different API endpoints. In the server, A `DocumentHolder` object will be created to take in the parameters such as token, cell and process the calculation. As is shown in the following `DocumentHolder`. `addToken()`, the result will be returned in a JSON format. 
+
+```sh
+     public addToken(docName: string, token: string, user: string,): any {
+        let document = this._documents.get(docName);
+
+        document!.addToken(token, user);
+        this._saveDocument(docName);
+        // get the json string for the controler
+        const documentJSON = this.getDocumentJSON(docName, user);
+        return documentJSON;
+
+    }
+```
+
+The following code snippet is an example of pushing updates back to the client. The result is included on the response body and further sent by `res.status().send()`. 
+
+```sh
+    app.put('/document/addtoken/:name', (req: express.Request, res: express.Response) => {
+        // ......
+        const resultJSON = documentHolder.addToken(name, token, userName);
+        res.status(200).send(resultJSON);
+    }
+```
+
+In the `SpreadSheetClient.ts`, the UI displays results by the following method. A 2D array of string is generated to display the values in the cells, formatted for use in GUI.
+
+```sh
+
+   public getSheetDisplayStringsForGUI(): string[][] {
+        if (!this._document) {
+            return [];
+        }
+        const columns = this._document.columns;
+        const rows = this._document.rows;
+        const cells: Map<string, CellTransport> = this._document.cells as Map<string, CellTransport>;
+        const sheetDisplayStrings: string[][] = [];
+        // create a 2d array of strings that is [row][column]
+
+        for (let row = 0; row < rows; row++) {
+            sheetDisplayStrings[row] = [];
+            for (let column = 0; column < columns; column++) {
+                const cellName = Cell.columnRowToCell(column, row)!;
+                const cell = cells.get(cellName) as CellTransport;
+                if (cell) {
+                    // add the cell value and the editing status
+                    sheetDisplayStrings[row][column] = this._getCellValue(cell) + "|" + cell.editing;
+                } else {
+                    throw new Error(`cell ${cellName} not found`);
+                }
+            }
+        }
+        return sheetDisplayStrings;
+    }
+```
