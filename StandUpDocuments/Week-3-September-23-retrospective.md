@@ -8,7 +8,7 @@ Week 3 September 23
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Yuning Mu
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -22,7 +22,7 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 
 ## What Went Well
 List the things that went well during the project.
--just look at the data generator.
+- just look at the data generator.
 -
 -
 
@@ -30,7 +30,7 @@ List the things that went well during the project.
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--start think how to complete project.
+- start think how to complete project.
 -
 -
 
@@ -38,14 +38,14 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Go through the project that professor posted, understanding the data structure and the event generator.
 2.
 3.
 
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
   -I watched the video just posted in canvas.
 - **Challenges Faced:**
@@ -55,15 +55,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -No suggestion for this week
 
-### [Team Member 2]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - We worked on the analyses together last week, and will be working on understanding the data from the donor server.
 - **Challenges Faced:**
-  -
+  - Not yet, but may face some technical challenges when working on the data.
 - **Areas for Improvement:**
-  -
+  - Still need to learn more about typescript, espectially the testing part.
 - **Feedback and Suggestions:**
-  -
+  - Nothing, everything is going well so far.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
@@ -100,11 +100,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Very good communication and collaboration!
 - **Areas for Improvement:**
-  -
+  - Other than everyone being busy, which is unavoidable, nothing else.
 - **Suggestions for Future Projects:**
-  -
+  - Keep up the good work!
 
 ---
 
