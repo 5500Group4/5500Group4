@@ -1,7 +1,7 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 3 September 23
@@ -9,7 +9,7 @@ Week 3 September 23
 ## Participants
 - Dalin Wang
 - Yuning Mu
-- [Team Member 3]
+- Rubing Li
 - [Team Member 4]
 - [Team Member 5]
 
@@ -23,7 +23,7 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 ## What Went Well
 List the things that went well during the project.
 - just look at the data generator.
--
+- the team properly summarized the needs of the client and the problems to be solved 
 -
 
 ---
@@ -39,7 +39,7 @@ List the areas where there is room for improvement.
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
 1. Go through the project that professor posted, understanding the data structure and the event generator.
-2.
+2. Review the sample data provided by the client
 3.
 
 ---
@@ -65,15 +65,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Nothing, everything is going well so far.
 
-### [Team Member 3]
+### Rubing Li
 - **Achievements and Contributions:**
-  -
+  - Collaborated with the team members to finish the assignment of analyzing the cal-sheet 
 - **Challenges Faced:**
-  -
+  - This is the first time working on a real life IT project. I'm clear about the needs of the as the interview with the client is informative their is very informational, but builiding the application is a siginificant challenge for me.  
 - **Areas for Improvement:**
-  -
+  - The technical skills to work on the BC cancer project
 - **Feedback and Suggestions:**
-  -
+  - No suggestions for the team. The collaboration went well. 
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
