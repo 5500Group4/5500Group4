@@ -10,7 +10,7 @@ Week 3 September 23
 - Dalin Wang
 - Yuning Mu
 - Rubing Li
-- [Team Member 4]
+- Meilin Niu
 - [Team Member 5]
 
 ---
@@ -75,15 +75,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No suggestions for the team. The collaboration went well. 
 
-### [Team Member 4]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - Collaborating with the teammates, we finished the analysis of the cal-sheet. I finished the questions to the client.
 - **Challenges Faced:**
-  -
+  - No familiar with the tech stacks about the project. No clear about how to solve the issues declared by the client.
 - **Areas for Improvement:**
-  -
+  - Improve skills of tech stacks including React, TS, JS.
 - **Feedback and Suggestions:**
-  -
+  - Everyone's perfect!
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
