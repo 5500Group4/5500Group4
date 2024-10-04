@@ -11,7 +11,7 @@ Week 3 September 23
 - Yuning Mu
 - Rubing Li
 - Meilin Niu
-- [Team Member 5]
+- Minghe Hu
 
 ---
 
@@ -85,15 +85,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everyone's perfect!
 
-### [Team Member 5]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - watched the video on Canvas, analyse client demands and finished hw.
 - **Challenges Faced:**
-  -
+  - No clue in terms of where to start
 - **Areas for Improvement:**
-  -
+  - work with teammate to see how to work on a project like this
 - **Feedback and Suggestions:**
-  -
+  - I like my team
 
 ---
 
