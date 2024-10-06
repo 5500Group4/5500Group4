@@ -7,7 +7,7 @@
 Week 4 September 30
 
 ## Participants
-- [Team Member 1]
+- Dalin Wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -22,7 +22,7 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 
 ## What Went Well
 List the things that went well during the project.
--
+- good communication with our teammates
 -
 -
 
@@ -30,7 +30,7 @@ List the things that went well during the project.
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- become more efficient to look at database
 -
 -
 
@@ -47,13 +47,13 @@ Identify actionable steps that can be taken to improve future projects.
 ## Individual Self-Assessments
 ### [Team Member 1]
 - **Achievements and Contributions:**
-  -
+  -Starting look dataset and figure out customers goal
 - **Challenges Faced:**
-  -
+  -still need time to study the type of dataset
 - **Areas for Improvement:**
-  -
+  -communicaite with our teammates
 - **Feedback and Suggestions:**
-  -
+  -No feedback for this week.
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
