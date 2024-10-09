@@ -8,7 +8,7 @@ Week 5 October 07
 
 ## Participants
 - Rubing Li
-- [Team Member 2]
+- Meilin Niu
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -57,15 +57,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - the team collaborates well. No feedback and suggestions. 
 
-### [Team Member 2]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - attend Juancho's office hour to discuss about the project
 - **Challenges Faced:**
-  -
+  - design the diagram of the application
 - **Areas for Improvement:**
-  -
+  - lack of knowledge for system design
 - **Feedback and Suggestions:**
-  -
+  - Everyone's great!
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
