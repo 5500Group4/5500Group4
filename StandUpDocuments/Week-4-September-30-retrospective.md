@@ -86,15 +86,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No specific feedback for this week.
 
-### [Team Member 5]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - figuring out the demo product and the code structure
 - **Challenges Faced:**
-  -
+  - still learning typescrit 
 - **Areas for Improvement:**
-  -
+  - coding ability and to read other's code
 - **Feedback and Suggestions:**
-  -
+  - I like my team
 
 ---
 
