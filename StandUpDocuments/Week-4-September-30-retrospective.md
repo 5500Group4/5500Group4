@@ -11,7 +11,7 @@ Week 4 September 30
 - Rubing Li
 - Yuning Mu
 - Meilin Niu
-- [Team Member 5]
+- Minghe Hu
 
 ---
 
