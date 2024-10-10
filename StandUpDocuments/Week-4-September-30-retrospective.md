@@ -9,7 +9,7 @@ Week 4 September 30
 ## Participants
 - Dalin Wang
 - Rubing Li
-- [Team Member 3]
+- Yuning Mu
 - [Team Member 4]
 - [Team Member 5]
 
@@ -23,15 +23,15 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 ## What Went Well
 List the things that went well during the project.
 - good communication with our teammates
--
--
+- the team understands the requirements for the project proposal presentation
+- the team maintains effeicient communications
 
 ---
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
 - become more efficient to look at database
--
+- need to finalize the project prototype soon
 -
 
 ---
@@ -39,8 +39,8 @@ List the areas where there is room for improvement.
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
 1. watch the demos provided by Juancho and use it to guide our thinking process
-2.
-3.
+2. reserve the time for group discussions for preparing the project
+3. share thoughts and agree on the selected solution and project prototype
 
 ---
 
@@ -66,15 +66,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - The group collaboration goes well. No feedback for this week. 
 
-### [Team Member 3]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Understand the code and the data structure provided by Juancho
 - **Challenges Faced:**
-  -
+  - Feel a bit lost in the codebase and the testing part
 - **Areas for Improvement:**
-  -
+  - May need to have plans for the next steps soon
 - **Feedback and Suggestions:**
-  -
+  - No specific feedback for this week.
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
@@ -101,11 +101,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - good communication with our teammates
 - **Areas for Improvement:**
-  -
+  - need to finalize the project prototype soon
 - **Suggestions for Future Projects:**
-  -
+  - reserve the time for group discussions for preparing the project
 
 ---
 
