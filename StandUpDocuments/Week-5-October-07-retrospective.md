@@ -9,7 +9,7 @@ Week 5 October 07
 ## Participants
 - Rubing Li
 - Meilin Niu
-- [Team Member 3]
+- Dalin Wang
 - [Team Member 4]
 - [Team Member 5]
 
@@ -67,15 +67,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everyone's great!
 
-### [Team Member 3]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  - Starting draw UML and data structure for this project
 - **Challenges Faced:**
-  -
+  - design some frontend web 
 - **Areas for Improvement:**
-  -
+  - still need talk with my teammate about data structure 
 - **Feedback and Suggestions:**
-  -
+  - So far so good 
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
