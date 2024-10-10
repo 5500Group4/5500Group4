@@ -1,14 +1,14 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 4 September 30
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Rubing Li
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -38,14 +38,14 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. watch the demos provided by Juancho and use it to guide our thinking process
 2.
 3.
 
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
   -Starting look dataset and figure out customers goal
 - **Challenges Faced:**
@@ -55,15 +55,16 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -No feedback for this week.
 
-### [Team Member 2]
+### Rubing Li
 - **Achievements and Contributions:**
-  -
+  - Understand the demo by Juancho to get an idea about the raw data
 - **Challenges Faced:**
-  -
+  - Develop a brief plan for starting to build the BC cancer project: how many components to be included?
+  - Understand the parameters and logic of the raw data
 - **Areas for Improvement:**
-  -
+  - Draft a preliminary plan for developing the application 
 - **Feedback and Suggestions:**
-  -
+  - The group collaboration goes well. No feedback for this week. 
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
