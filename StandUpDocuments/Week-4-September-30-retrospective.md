@@ -10,7 +10,7 @@ Week 4 September 30
 - Dalin Wang
 - Rubing Li
 - Yuning Mu
-- [Team Member 4]
+- Meilin Niu
 - [Team Member 5]
 
 ---
@@ -76,15 +76,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No specific feedback for this week.
 
-### [Team Member 4]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - Understand the demo provided by Juancho
 - **Challenges Faced:**
-  -
+  - Not quite understand the demand of the client
 - **Areas for Improvement:**
-  -
+  - Design more detailed plan
 - **Feedback and Suggestions:**
-  -
+  - No specific feedback for this week.
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
