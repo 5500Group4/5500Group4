@@ -10,7 +10,7 @@ Week 5 October 07
 - Rubing Li
 - Meilin Niu
 - Dalin Wang
-- [Team Member 4]
+- Minghe Hu
 - [Team Member 5]
 
 ---
@@ -77,15 +77,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - So far so good 
 
-### [Team Member 4]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - start the system design part of the project
 - **Challenges Faced:**
-  -
+  - lack of knowledge on how to start a project from scratch 
 - **Areas for Improvement:**
-  -
+  - lack of familiarity of data structures and connection between front and back end
 - **Feedback and Suggestions:**
-  -
+  - I like my team 
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
