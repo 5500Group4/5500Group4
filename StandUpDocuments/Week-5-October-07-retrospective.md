@@ -11,7 +11,7 @@ Week 5 October 07
 - Meilin Niu
 - Dalin Wang
 - Minghe Hu
-- [Team Member 5]
+- Yuning Mu
 
 ---
 
@@ -87,26 +87,26 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - I like my team 
 
-### [Team Member 5]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Used balsamiq for wireframe designing
 - **Challenges Faced:**
-  -
+  - May need a structured plan to implement the wireframe design
 - **Areas for Improvement:**
-  -
+  - need to familiarize myself with back-end design.
 - **Feedback and Suggestions:**
-  -
+  - Everything's fine!
 
 ---
 
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Communications went well. We always consider everyone when scheduling things.
 - **Areas for Improvement:**
-  -
+  - Everyone's doing great!
 - **Suggestions for Future Projects:**
-  -
+  - Once we get started with the actual implementations, we may have more thoughts and feedback
 
 ---
 
