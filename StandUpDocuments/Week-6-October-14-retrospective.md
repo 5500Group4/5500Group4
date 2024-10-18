@@ -48,7 +48,8 @@ Identify actionable steps that can be taken to improve future projects.
 ### Rubing Li
 - **Achievements and Contributions:**
   - Watch the interview video and read the client demand materials again.
-  - Preliminary design of the system includes the module to add donor information, the module of "plan an event" with the functions to add notes. The system integrates a hierarchy of user roles. 
+  - Preliminary design of the system includes the module to "plan an event" with the functions to record the edit history. The system integrates a hierarchy of user roles.
+  - Take charge of the wireframe prototype of the project proposal
 - **Challenges Faced:**
   - To realize the planned functions.
   - To clarify the logic and the flow of information throughout the different modules
