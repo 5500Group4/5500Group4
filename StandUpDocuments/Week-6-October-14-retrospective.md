@@ -8,7 +8,7 @@ Week 6 October 14
 
 ## Participants
 - Rubing Li
-- [Team Member 2]
+- Dalin Wang
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -58,15 +58,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No suggestions
 
-### [Team Member 2]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  -starting design and build database for our project
 - **Challenges Faced:**
-  -
+  -need to think about how to let database easily to use.
 - **Areas for Improvement:**
-  -
+  -need to find free database application online.
 - **Feedback and Suggestions:**
-  -
+  -we have a good start of our project.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
