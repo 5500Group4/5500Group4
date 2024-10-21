@@ -9,7 +9,7 @@ Week 6 October 14
 ## Participants
 - Rubing Li
 - Dalin Wang
-- [Team Member 3]
+- Minghe HU
 - [Team Member 4]
 - [Team Member 5]
 
@@ -68,15 +68,18 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -we have a good start of our project.
 
-### [Team Member 3]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - read the client demand material
+  - met with professor on what the functions our product should provide
+  - decided with my teammates interms of which stack we should use
+  - dicussed with my teamates on where to start in terms of building the project
 - **Challenges Faced:**
-  -
+  - To actual start the project 
 - **Areas for Improvement:**
-  -
+  - need to start frontend work
 - **Feedback and Suggestions:**
-  -
+  - I like my team
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
