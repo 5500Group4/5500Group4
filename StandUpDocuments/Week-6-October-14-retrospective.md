@@ -10,7 +10,7 @@ Week 6 October 14
 - Rubing Li
 - Dalin Wang
 - Minghe HU
-- [Team Member 4]
+- Yuning Mu
 - [Team Member 5]
 
 ---
@@ -18,19 +18,21 @@ Week 6 October 14
 ## Overview
 Briefly describe the purpose of this retrospective and what you aim to achieve.
 
+- We discussed the proposal of the project and prepared for the presentation together.
+
 ---
 
 ## What Went Well
 List the things that went well during the project.
 - Draft the wireframe of the BC cancer project
--
+- Prepare the slides and documents for the presentation
 -
 
 ---
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
-- 
+- Everything's good.
 -
 -
 
@@ -38,7 +40,7 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Since the wireframe prototypes are almost ready thanks to Rubing, we'll dive deeper into the details of the prototype and start implementing some of the basic features.
 2.
 3.
 
@@ -81,15 +83,18 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - I like my team
 
-### [Team Member 4]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Went through the materials again and organized them for the presentation preparation
+  - communicated with teammates over the design of our project
+  - Met with Juancho and presented our prototypes
+  - Prepared the slides for the presentation
 - **Challenges Faced:**
-  -
+  - Still not familiar with some dev tools we'll be using
 - **Areas for Improvement:**
-  -
+  - A more detailed plan for starting the front-end dev
 - **Feedback and Suggestions:**
-  -
+  - Everything's great
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
@@ -106,11 +111,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Our communications are smooth as usual
 - **Areas for Improvement:**
-  -
+  - Everything is fine
 - **Suggestions for Future Projects:**
-  -
+  - We can start dividing the work soon
 
 ---
 
