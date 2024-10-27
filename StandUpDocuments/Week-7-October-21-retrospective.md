@@ -7,7 +7,7 @@
 Week 7 October 21
 
 ## Participants
-- [Team Member 1]
+- Dalin Wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -18,7 +18,7 @@ Week 7 October 21
 ## Overview
 Briefly describe the purpose of this retrospective and what you aim to achieve.
 
----
+---starting design backend and frontend tasks.
 
 ## What Went Well
 List the things that went well during the project.
@@ -45,15 +45,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  -Already considering and finishing design of backend database.
 - **Challenges Faced:**
-  -
+  -Need to commnuicate with my teammates to see is there any changes in my design.
 - **Areas for Improvement:**
-  -
+  -related sql design.
 - **Feedback and Suggestions:**
-  -
+  -really good start for our project.
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
