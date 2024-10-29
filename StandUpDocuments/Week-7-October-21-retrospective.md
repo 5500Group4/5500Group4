@@ -8,7 +8,7 @@ Week 7 October 21
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Yuning Mu
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -22,15 +22,15 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 
 ## What Went Well
 List the things that went well during the project.
--
--
+- We have a great prototype design for our project.
+- We have clear plans and tasks for each team member, and we've thought about the design of the database.
 -
 
 ---
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- We can communicate more frequently to make sure everyone is on the same page.
 -
 -
 
@@ -38,7 +38,7 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Start the backend and frontend design.
 2.
 3.
 
@@ -55,15 +55,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -really good start for our project.
 
-### [Team Member 2]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - We have set up the basic file structure of our project.
 - **Challenges Faced:**
-  -
+  - Not sure what is the best way to divide our tasks.
 - **Areas for Improvement:**
-  -
+  - Need to divide the tasks more clearly.
 - **Feedback and Suggestions:**
-  -
+  - Everything is going well so far.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
@@ -100,11 +100,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Great communication and collaboration, clear plans. Everyone is actively participating.
 - **Areas for Improvement:**
-  -
+  - Everything is going well so far.
 - **Suggestions for Future Projects:**
-  -
+  - Keep up the good work.
 
 ---
 
