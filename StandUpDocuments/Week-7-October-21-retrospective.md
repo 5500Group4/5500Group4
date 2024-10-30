@@ -1,7 +1,7 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 7 October 21
@@ -9,7 +9,7 @@ Week 7 October 21
 ## Participants
 - Dalin Wang
 - Yuning Mu
-- [Team Member 3]
+- Rubing Li
 - [Team Member 4]
 - [Team Member 5]
 
@@ -67,13 +67,14 @@ Identify actionable steps that can be taken to improve future projects.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
-  -
+  - Evaluate the draft prototype used in the presentation for the further procedures of implementation
 - **Challenges Faced:**
-  -
+  - Study the third-party react library of front end styles
+  - Build up the database to cloud
 - **Areas for Improvement:**
-  -
+  - Determine the allocation of works of the team
 - **Feedback and Suggestions:**
-  -
+  - No additional suggestions for the team
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
