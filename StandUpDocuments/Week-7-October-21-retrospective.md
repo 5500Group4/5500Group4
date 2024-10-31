@@ -10,7 +10,7 @@ Week 7 October 21
 - Dalin Wang
 - Yuning Mu
 - Rubing Li
-- [Team Member 4]
+- Minghe Hu
 - [Team Member 5]
 
 ---
@@ -76,15 +76,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No additional suggestions for the team
 
-### [Team Member 4]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  - Evaluate the frontend function
 - **Challenges Faced:**
-  -
+  - need to decide how to work as two teams and rework as a whole team
 - **Areas for Improvement:**
-  -
+  - need to build a clear timeline
 - **Feedback and Suggestions:**
-  -
+  - I like my team!
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
