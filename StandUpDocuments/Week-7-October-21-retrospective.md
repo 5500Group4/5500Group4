@@ -65,7 +65,7 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everything is going well so far.
 
-### [Team Member 3]
+### Rubing Li
 - **Achievements and Contributions:**
   - Evaluate the draft prototype used in the presentation for the further procedures of implementation
 - **Challenges Faced:**
