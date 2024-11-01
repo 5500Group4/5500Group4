@@ -11,7 +11,7 @@ Week 7 October 21
 - Yuning Mu
 - Rubing Li
 - Minghe Hu
-- [Team Member 5]
+- Meilin Niu
 
 ---
 
@@ -86,15 +86,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - I like my team!
 
-### [Team Member 5]
+### Meilin Niu
 - **Achievements and Contributions:**
-  -
+  - Evaluate the backend design
 - **Challenges Faced:**
-  -
+  - dig into more details of backend developemnt
 - **Areas for Improvement:**
-  -
+  - need to set up a clear workflow
 - **Feedback and Suggestions:**
-  -
+  - My team is doing great.
 
 ---
 
