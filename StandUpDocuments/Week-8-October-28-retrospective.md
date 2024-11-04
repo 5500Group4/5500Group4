@@ -7,7 +7,7 @@
 Week 8 October 28
 
 ## Participants
-- [Team Member 1]
+- Dalin Wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -45,15 +45,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin
 - **Achievements and Contributions:**
-  -
+  -starting think how to split tasks for our project
 - **Challenges Faced:**
-  -
+  -need to decide split by backend frontend or just split by different features
 - **Areas for Improvement:**
-  -
+  -so far so good
 - **Feedback and Suggestions:**
-  -
+  -hope we can have good final delivery
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
