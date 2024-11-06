@@ -1,14 +1,14 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 8 October 28
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Yuning Mu
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -18,19 +18,21 @@ Week 8 October 28
 ## Overview
 Briefly describe the purpose of this retrospective and what you aim to achieve.
 
+We have finished the design of our project and started to implement it. We will discuss what went well and what could be improved during the project. We will also identify actionable steps that can be taken to improve future projects.
+
 ---
 
 ## What Went Well
 List the things that went well during the project.
--
--
+- The division of tasks was clear and well-organized.
+- The team members were able to communicate effectively.
 -
 
 ---
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- Everything is going well so far.
 -
 -
 
@@ -38,9 +40,9 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
-2.
-3.
+1. Design the database schema.
+2. Implement the backend API.
+3. Implement the frontend pages and start testing soon.
 
 ---
 
@@ -55,15 +57,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -hope we can have good final delivery
 
-### [Team Member 2]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - We split the tasks and started to implement the project. Minghe and I are working on the dashboard page.
 - **Challenges Faced:**
-  -
+  - The dashboard page is a bit complex and we need to figure out some details.
 - **Areas for Improvement:**
-  -
+  - Everything is going well so far.
 - **Feedback and Suggestions:**
-  -
+  - Hope we can finish the project on time.
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
@@ -100,11 +102,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Good communication and collaboration.
 - **Areas for Improvement:**
-  -
+  - Everything is going well so far.
 - **Suggestions for Future Projects:**
-  -
+  - Keep up the good work and maintain effective communication.
 
 ---
 
