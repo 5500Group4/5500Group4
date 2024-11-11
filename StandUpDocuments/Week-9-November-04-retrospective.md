@@ -7,7 +7,7 @@
 Week 9 November 04
 
 ## Participants
-- [Team Member 1]
+- Dalin wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -45,15 +45,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  -starting code for my webpage
 - **Challenges Faced:**
-  -
+  -still need time to figure out how to finished that feature
 - **Areas for Improvement:**
-  -
+  -more communication with my teammates
 - **Feedback and Suggestions:**
-  -
+  -so far so good
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
