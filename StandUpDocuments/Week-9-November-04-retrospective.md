@@ -8,7 +8,7 @@ Week 9 November 04
 
 ## Participants
 - Dalin wang
-- [Team Member 2]
+- Rubing Li
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -22,7 +22,7 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 
 ## What Went Well
 List the things that went well during the project.
--
+- Communicate effectively to distribute the work
 -
 -
 
@@ -57,13 +57,14 @@ Identify actionable steps that can be taken to improve future projects.
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
-  -
+  - create and send the database to renders.com
+  - Work on the "Add Event" page
 - **Challenges Faced:**
-  -
+  - Realize the planned UI design of the page
 - **Areas for Improvement:**
-  -
+  - Ensure the functionality of the page 
 - **Feedback and Suggestions:**
-  -
+  - No feedback
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
