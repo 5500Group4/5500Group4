@@ -9,7 +9,7 @@ Week 9 November 04
 ## Participants
 - Dalin wang
 - Rubing Li
-- [Team Member 3]
+- Yuning Mu
 - [Team Member 4]
 - [Team Member 5]
 
@@ -23,14 +23,14 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 ## What Went Well
 List the things that went well during the project.
 - Communicate effectively to distribute the work
--
+- Everyone is working hard to finish their part
 -
 
 ---
 
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
+- Need to speed up the process of the project
 -
 -
 
@@ -38,7 +38,7 @@ List the areas where there is room for improvement.
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Work more effectively on the dashboard page
 2.
 3.
 
@@ -66,15 +66,15 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - No feedback
 
-### [Team Member 3]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Worked on the `dashboard` page with Minghe
 - **Challenges Faced:**
-  -
+  - Need to integrate with the rest of our team's work
 - **Areas for Improvement:**
-  -
+  - Need to speed up the process of the project
 - **Feedback and Suggestions:**
-  -
+  - Everything is going well
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
@@ -101,11 +101,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - Communication
 - **Areas for Improvement:**
-  -
+  - Speed up the process of the project
 - **Suggestions for Future Projects:**
-  -
+  - Everything is going well
 
 ---
 
