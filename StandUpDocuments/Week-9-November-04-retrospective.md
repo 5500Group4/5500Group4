@@ -10,7 +10,7 @@ Week 9 November 04
 - Dalin wang
 - Rubing Li
 - Yuning Mu
-- [Team Member 4]
+- Minghe Hu
 - [Team Member 5]
 
 ---
@@ -76,15 +76,16 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - Everything is going well
 
-### [Team Member 4]
+### Minghe Hu
 - **Achievements and Contributions:**
-  -
+  -worked on the dashboard page with Yuning
 - **Challenges Faced:**
-  -
+  -UI design and layout;
+  -user authentication and access control
 - **Areas for Improvement:**
-  -
+  -work coordinating 
 - **Feedback and Suggestions:**
-  -
+  -I like my team
 
 ### [Team Member 5]
 - **Achievements and Contributions:**
