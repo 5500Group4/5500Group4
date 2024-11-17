@@ -7,7 +7,7 @@
 Week 10 November 11
 
 ## Participants
-- [Team Member 1]
+- Dalin Wang
 - [Team Member 2]
 - [Team Member 3]
 - [Team Member 4]
@@ -45,15 +45,15 @@ Identify actionable steps that can be taken to improve future projects.
 ---
 
 ## Individual Self-Assessments
-### [Team Member 1]
+### Dalin Wang
 - **Achievements and Contributions:**
-  -
+  -already starting coding export list feature. And the feature already completed.
 - **Challenges Faced:**
-  -
+  -need time to do UI adjustments.
 - **Areas for Improvement:**
-  -
+  -UI
 - **Feedback and Suggestions:**
-  -
+  -So far so good
 
 ### [Team Member 2]
 - **Achievements and Contributions:**
