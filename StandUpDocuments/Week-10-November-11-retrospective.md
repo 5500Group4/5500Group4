@@ -1,14 +1,14 @@
 # Retrospective Document Template
 
 ## Team Name
-[Insert Team Name Here]
+Group 4
 
 ## Date
 Week 10 November 11
 
 ## Participants
 - Dalin Wang
-- [Team Member 2]
+- Rubing Li
 - [Team Member 3]
 - [Team Member 4]
 - [Team Member 5]
@@ -22,12 +22,11 @@ Briefly describe the purpose of this retrospective and what you aim to achieve.
 
 ## What Went Well
 List the things that went well during the project.
--
+- The team has strong learning abilities and was able to complete the MVP using modular programming techniques 
 -
 -
 
----
-
+--
 ## What Could Be Improved
 List the areas where there is room for improvement.
 -
@@ -55,15 +54,16 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   -So far so good
 
-### [Team Member 2]
+### Rubing Li
 - **Achievements and Contributions:**
-  -
+  - Complete the MVP of "add event" and "view event" modules developed in React
 - **Challenges Faced:**
-  -
+  - Our current system fetches the raw data from the faux data API, so we need to adjust the parameters to be compatiple with that of the API.
 - **Areas for Improvement:**
-  -
+  - The functions of the two modules need to be polished. For example, the event size parameter is not effective.
+  - A few areas of the UI need improvement for a better user experience.
 - **Feedback and Suggestions:**
-  -
+  - The coordination of the different pieces of work submitted by the team members works perfect. 
 
 ### [Team Member 3]
 - **Achievements and Contributions:**
