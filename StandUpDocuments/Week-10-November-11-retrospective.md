@@ -9,7 +9,7 @@ Week 10 November 11
 ## Participants
 - Dalin Wang
 - Rubing Li
-- [Team Member 3]
+- Yuning Mu
 - [Team Member 4]
 - [Team Member 5]
 
@@ -29,15 +29,15 @@ List the things that went well during the project.
 --
 ## What Could Be Improved
 List the areas where there is room for improvement.
--
--
+- Some components are not responsive, because some pages are not yet fully developed
+- Divisions of tasks could be more balanced and efficient
 -
 
 ---
 
 ## Action Items
 Identify actionable steps that can be taken to improve future projects.
-1.
+1. Implement the edit events page
 2.
 3.
 
@@ -65,15 +65,19 @@ Identify actionable steps that can be taken to improve future projects.
 - **Feedback and Suggestions:**
   - The coordination of the different pieces of work submitted by the team members works perfect. 
 
-### [Team Member 3]
+### Yuning Mu
 - **Achievements and Contributions:**
-  -
+  - Set up the project structure initialized the git repository 
+  - Custom user authentication and authorization
+  - Implemented all of the backend API endpoints
+  - Implemented the frontend pages for the user auth, dashboard, users page and event list
+  - Polished most of the UI components
 - **Challenges Faced:**
-  -
+  - Collaboration via git can be challenging
 - **Areas for Improvement:**
-  -
+  - Need to take a step back and think about the overall design of some pages
 - **Feedback and Suggestions:**
-  -
+  - Teamwork can be improved
 
 ### [Team Member 4]
 - **Achievements and Contributions:**
@@ -100,11 +104,11 @@ Identify actionable steps that can be taken to improve future projects.
 ## Overall Team Assessment
 Reflect on the team’s performance as a whole.
 - **Team Strengths:**
-  -
+  - We were able to deliver the MVP on time
 - **Areas for Improvement:**
-  -
+  - Teamwork can be improved
 - **Suggestions for Future Projects:**
-  -
+  - Focus on timely completion rather than striving for perfection. With everyone contributing according to their strengths, we should get the project done in time
 
 ---
 
